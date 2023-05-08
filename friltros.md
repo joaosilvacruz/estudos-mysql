@@ -29,3 +29,14 @@ WHERE column_name IN (value1, value2, ...);
 
 - Ex3:
 SELECT * FROM clientes WHERE nome IN ('João', 'Maria');
+
+- LIKE:
+A cláusula LIKE é usada para filtrar registros com base em um padrão de caracteres especificado. A sintaxe básica é a seguinte:
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE column_name LIKE pattern;
+
+- Ex4:
+SELECT * FROM clientes WHERE nome LIKE 'J%';
+
